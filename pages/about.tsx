@@ -1,9 +1,9 @@
-import Header from '../components/header'
+import Navbar from './navbar'
 
-export default function AboutPage() {
+export default function About() {
   return (
     <>
-      <Header />
+      <Navbar home={false} games={false} about={true} contact={false} />
       <h1>About page</h1>
     </>
   )

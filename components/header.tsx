@@ -10,6 +10,9 @@ export default function Header() {
         <li>
           <Link href="/about">About</Link>
         </li>
+        <li>
+          <Link href="/example">Example</Link>
+        </li>
         {/* <li>
           <Link href="/post/first">First Post</Link>
         </li>
