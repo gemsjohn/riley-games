@@ -25,12 +25,27 @@ Welcome to my Riley Games website, where I showcase my passion for mobile game d
 
 * This token system adds an additional layer of engagement, as players are incentivized to continue playing and striving for high scores.
 
-
+- - - - - 
 
 <img src="https://github.com/gemsjohn/riley-games/blob/main/public/wordlit_icon.png" width="100" height="100" style="border-radius: 50%;">
 
 **[WordLit](https://play.google.com/store/apps/details?id=com.WordLit&hl=en_US&gl=US)**
-* Description: Introducing WordLit, the fast-paced game that tests your word-solving skills.
+
+:boom: Frontend Tech Stack: React Native, Expo, Google Play Console
+
+:boom: Backend Tech Stack: Node.js, GraphQL/Apollo Server, MongoDB, Heroku
+
+* WordLit is a fast-paced game that challenges players' word-solving skills.
+
+* The game features a unique word list generated partially by [OpenAI](https://openai.com/) and me (the creator)  consisting of around 2,000 definable English words with definitions.
+
+* In each round, the game randomly selects 5 words from the list and places them into an array, finds 2 words with a common letter and places them on a 5x5 grid, with the 2 words intersecting at a common letter.
+
+* The keyboard below the grid includes all the letters required to form the 2 words, along with additional random letters.
+
+* The player has 12 guesses to correctly identify the 2 words before the game ends and moves onto the next round.
+
+* Authenticated user high scores are stored on a Node.js server and displayed on the leaderboard for all players to see, creating a competitive and engaging atmosphere.
 
 ## WEBSITE TECH STACK
 * Next.js
