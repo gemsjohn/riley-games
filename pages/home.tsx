@@ -98,7 +98,7 @@ export default function Home() {
                   <button
                     onClick={(e) => {
                       e.preventDefault();
-                      window.location.href = '';
+                      window.location.href = '/games';
                     }}
                     className="bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white p-2 w-40 m-2"
                     style={{
@@ -177,7 +177,7 @@ export default function Home() {
                   <button
                     onClick={(e) => {
                       e.preventDefault();
-                      window.location.href = '';
+                      window.location.href = '/games';
                     }}
                     className="bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white p-2 w-40 m-2"
                     style={{
