@@ -20,14 +20,13 @@ export default function Blog() {
                 }}
                 className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-3xl m-8 flex items-center justify-center"
                 style={{
-                  height: '10vh',
+                  height: '15vh',
                   width: '70vw'
                 }}
               >
                 <div className="flex flex-col">
-                  <h1 className="text-6xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >@react-native-amateur</h1>
-                  <text className="mt-1 font-oswald">`not a real npm package`</text>
-                  <text className="mt-6">See More</text>
+                  <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >@react-native-amateur</h1>
+                  <text className="mt-2 font-subtext">See More</text>
                 </div>
               </button>
               :
@@ -63,7 +62,7 @@ export default function Blog() {
                   </div>
                 </button>
                 <div className="flex flex-col">
-                  <h1 className="text-6xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >@react-native-amateur</h1>
+                <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >@react-native-amateur</h1>
                   <text className="mt-1 font-oswald flex items-center justify-center">`not a real npm package`</text>
                 </div>
 
