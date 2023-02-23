@@ -6,6 +6,8 @@ import cosmic_feature from '../public/cosmic_feature.png'
 import cosmic_bg from '../public/cosmic_bg.png'
 import wordlit_icon from '../public/wordlit_icon.png'
 import wordlit_feature from '../public/wordlit_feature.png'
+import styles from '../styles/Home.module.css'
+
 export default function Home() {
   return (
     <>
@@ -13,23 +15,12 @@ export default function Home() {
 
 
       <header>
-        {/* <Image
-            src={cosmic_bg}
-            alt={"Cosmic Scramble background"}
-            className="my-20 max-h-96 max-w-full"
-            style={{
-              position: 'absolute',
-              zIndex: -10,
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-
-            }}
-          /> */}
-        <div className="flex items-center justify-center height: 20vh">
-          <div className="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
-            <h1 className="text-8xl font-bold tracking-tight text-white font-display">RILEY GAMES</h1>
-            <h2 className="text-3xl font-bold tracking-tight text-white font-display text-center">
-              Game on the go with Riley Games. Your source for mobile entertainment.
+        
+        <div className="flex items-center justify-center" >
+          <div className="mx-auto max-w-7xl py-3 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
+            <h1 className="text-8xl font-bold tracking-tight text-white font-oswald text-center">RILEY GAMES</h1>
+            <h2 className="text-3xl font-bold tracking-tight text-white font-subtext text-center m-4">
+              your source for mobile entertainment
             </h2>
           </div>
         </div>
@@ -39,23 +30,22 @@ export default function Home() {
       <main>
         <div className="mx-auto max-w-5xl py-6 sm:px-6 lg:px-8">
           <div className="px-4 py-6 sm:px-0 flex items-center">
-            <div className="sm:h-100 ">
+            <div className="sm:h-50 ">
               <h2
-                className="sm:text-2xl lg:text-3xl font-bold tracking-tight font-display sm:w-10/12 md:w-11/12 m-8 text-center"
-                style={{ color: '#fcd01f' }}
+                className="sm:text-2xl lg:text-2xl font-bold tracking-tight font-subtext sm:w-10/12 md:w-11/12 mx-8 text-center"
+                style={{ color: '#09e049' }}
               >
                 At Riley Games, we believe that gaming should bring joy and happiness to people's lives.
-                We understand that everyone has their own preferences when it comes to games,
+                That's why our philosophy is simple. We create games that cater to all kinds of players,
                 whether they want something fun and casual or something more challenging and immersive.
-                That's why our philosophy is simple: to create games that cater to all kinds of players.
               </h2>
             </div>
           </div>
         </div>
 
 
-
-        <div className="grid lg:grid-cols-2 place-content-center justify-items-center mx-auto max-w-5xl">
+        <div style={{backgroundColor: '#101010'}}>
+        <div className="grid lg:grid-cols-2 place-content-center justify-items-center mx-auto max-w-5xl" >
           
           <div className="max-w-xl py-6 sm:px-6 lg:px-8 flex justify-center" style={{ backgroundColor: '' }}>
             <div className="px-4 py-6 sm:px-0 flex items-center">
@@ -65,19 +55,14 @@ export default function Home() {
                   src={cosmic_icon}
                   alt={"Cosmic Scramble icon"}
                   className="sm: w-24 md:w-40 lg:w-60 rounded-3xl m-2"
-                  style={{
-                    // borderRadius: '2vh',
-                    // height: 'auto',
-                    // width: '10vw',
-                  }}
                 />
                 <h2
-                  className="text-3xl font-bold tracking-tight font-display"
+                  className="text-3xl font-bold tracking-tight font-oswald"
                 >
                   COSMIC SCRAMBLE
                 </h2>
                 <h2
-                  className="text-4xl font-bold tracking-tight font-display m-8 text-center sm:w-80"
+                  className="text-2xl font-bold tracking-tight font-subtext m-8 text-center sm:w-80"
                 >
                   Get ready to blast off into a thrilling adventure with Cosmic Scramble!
                 </h2>
@@ -99,7 +84,7 @@ export default function Home() {
                   >
                     <div>
                       <text
-                        className="text-lg"
+                        className="text-xl font-oswald"
                         style={{
                           color: 'white',
                           textAlign: 'center'
@@ -125,7 +110,7 @@ export default function Home() {
                   >
                     <div>
                       <text
-                        className="text-lg"
+                        className="text-xl font-oswald"
                         style={{
                           color: 'white',
                           textAlign: 'center'
@@ -148,19 +133,14 @@ export default function Home() {
                   src={wordlit_icon}
                   alt={"Cosmic Scramble icon"}
                   className="sm: w-24 md:w-40 lg:w-60 rounded-3xl m-2"
-                  style={{
-                    // borderRadius: '2vh',
-                    // height: 'auto',
-                    // width: '10vw',
-                  }}
                 />
                 <h2
-                  className="text-3xl font-bold tracking-tight font-display"
+                  className="text-3xl font-bold tracking-tight font-oswald"
                 >
                   WORDLIT
                 </h2>
                 <h2
-                  className="text-4xl font-bold tracking-tight font-display m-8 text-center sm:w-80"
+                  className="text-2xl font-bold tracking-tight font-subtext m-8 text-center sm:w-80"
                   style={{ backgroundColor: '' }}
                 >
                   The fast-paced game that tests your word-solving skills.
@@ -183,7 +163,7 @@ export default function Home() {
                   >
                     <div>
                       <text
-                        className="text-lg"
+                        className="text-xl font-oswald"
                         style={{
                           color: 'white',
                           textAlign: 'center'
@@ -209,7 +189,7 @@ export default function Home() {
                   >
                     <div>
                       <text
-                        className="text-lg"
+                        className="text-xl font-oswald"
                         style={{
                           color: 'white',
                           textAlign: 'center'
@@ -224,12 +204,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </div>
 
         <div className="mx-auto max-w-5xl py-6 sm:px-6 lg:px-8  flex flex-col items-center justify-center">
           <div className="px-4 py-6 sm:px-0 flex items-center">
             <div className="sm:h-100 ">
               <div className="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
-                <h1 className="text-8xl font-bold tracking-tight text-white font-display flex items-center justify-center" >BLOG</h1>
+                <h1 className="text-8xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >BLOG</h1>
               </div>
               
 
@@ -273,7 +254,7 @@ export default function Home() {
         >
           <div className="px-4 py-6 sm:px-0 flex items-center">
           <div className="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
-                <h1 className="text-8xl font-bold tracking-tight text-white font-display flex items-center justify-center" >CONTACT</h1>
+                <h1 className="text-8xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >CONTACT</h1>
               </div>
           </div>
         </div>

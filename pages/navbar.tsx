@@ -45,7 +45,7 @@ export default function Navbar(props: NavbarProps) {
         <title>Home App</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&family=PT+Mono&display=swap" rel="stylesheet" />
       </Head>
 
       <div className="min-h-full">
@@ -76,7 +76,7 @@ export default function Navbar(props: NavbarProps) {
                               item.current
                                 ? 'bg-gray-900 text-white'
                                 : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                              'px-3 py-2 rounded-md text-lg font-large font-display'
+                              'px-3 py-2 rounded-md text-lg font-large font-oswald'
                             )}
                             aria-current={item.current ? 'page' : undefined}
                           >

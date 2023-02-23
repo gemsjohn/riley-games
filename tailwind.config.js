@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      display: ['Oswald', 'sans-serif']
+      oswald: ['Oswald', 'sans-serif'],
+      subtext: ['PT Mono', 'monospace']
     }
   },
   plugins: [],
