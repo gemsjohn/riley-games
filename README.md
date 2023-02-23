@@ -25,6 +25,15 @@ Welcome to my Riley Games website, where I showcase my passion for mobile game d
 
 * This token system adds an additional layer of engagement, as players are incentivized to continue playing and striving for high scores.
 
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/96096362/220933271-0a26ba1e-4201-4214-9b38-0d395b840310.png" width="200" height="100"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/96096362/220933497-bba9a3e6-79db-44e2-9628-ce4959fbf33e.png" width="200" height="100"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/96096362/220933633-85d10098-069a-4a2c-b494-9adf020f5e9c.png" width="200" height="100"></td>
+    
+  </tr>
+</table>
+
 - - - - - 
 
 <img src="https://github.com/gemsjohn/riley-games/blob/main/public/wordlit_icon.png" width="100" height="100" style="border-radius: 50%;">
