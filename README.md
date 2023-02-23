@@ -19,8 +19,10 @@ Welcome to my Riley Games website, where I showcase my passion for mobile game d
 
 * This token system adds an additional layer of engagement, as players are incentivized to continue playing and striving for high scores.
 
-* Frontend Tech Stack: React Native, Expo, Google Play Console
-* Backend Tech Stack: Node.js, GraphQL/Apollo Server, MongoDB, Heroku
+:boom: **Frontend Tech Stack:** React Native, Expo, Google Play Console
+
+
+:boom: **Backend Tech Stack:** Node.js, GraphQL/Apollo Server, MongoDB, Heroku
 
 <img src="https://github.com/gemsjohn/riley-games/blob/main/public/wordlit_icon.png" width="100" height="100" style="border-radius: 50%;">
 
