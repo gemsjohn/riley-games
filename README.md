@@ -47,7 +47,7 @@ Welcome to my Riley Games website, where I showcase my passion for mobile game d
 
 * Authenticated user high scores are stored on a Node.js server and displayed on the leaderboard for all players to see, creating a competitive and engaging atmosphere.
 
-## WEBSITE TECH STACK
+## RILEY GAMES WEBSITE TECH STACK
 * Next.js
 * TypeScript
 * JavaScript
