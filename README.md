@@ -7,6 +7,12 @@ Welcome to my Riley Games website, where I showcase my passion for mobile game d
 <img src="https://github.com/gemsjohn/riley-games/blob/main/public/cosmic_icon.png" width="100" height="100" style="border-radius: 50%;">
 
 **[Cosmic Scramble](https://play.google.com/store/apps/details?id=com.cosmicscramble&hl=en_US&gl=US)**
+
+:boom: **Frontend Tech Stack:** React Native, Expo, Google Play Console
+
+
+:boom: **Backend Tech Stack:** Node.js, GraphQL/Apollo Server, MongoDB, Heroku
+
 * Cosmic Scramble is a fully animated game where players dodge obstacles and collect letters.
 
 * The game has 15 stages with 5 levels per stage, providing a total of 75 levels to play through.
@@ -19,10 +25,7 @@ Welcome to my Riley Games website, where I showcase my passion for mobile game d
 
 * This token system adds an additional layer of engagement, as players are incentivized to continue playing and striving for high scores.
 
-:boom: **Frontend Tech Stack:** React Native, Expo, Google Play Console
 
-
-:boom: **Backend Tech Stack:** Node.js, GraphQL/Apollo Server, MongoDB, Heroku
 
 <img src="https://github.com/gemsjohn/riley-games/blob/main/public/wordlit_icon.png" width="100" height="100" style="border-radius: 50%;">
 
