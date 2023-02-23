@@ -10,7 +10,7 @@ Welcome to my Riley Games website, where I showcase my passion for mobile game d
 ### [Cosmic Scramble](https://play.google.com/store/apps/details?id=com.cosmicscramble&hl=en_US&gl=US)
 * Dodge obstacles and collect letters in this interstellar adventure.
 
-<img src="https://github.com/gemsjohn/riley-games/blob/main/public/wordlit_icon.png" width="150" height="150 style="border-radius: 50%;">
+<img src="https://github.com/gemsjohn/riley-games/blob/main/public/wordlit_icon.png" width="150" height="150" style="border-radius: 50%;">
 
 ### [WordLit](https://play.google.com/store/apps/details?id=com.WordLit&hl=en_US&gl=US)
 * Introducing WordLit, the fast-paced game that tests your word-solving skills.
