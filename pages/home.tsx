@@ -11,7 +11,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
-      <Navbar home={true} games={false} about={false} contact={false} />
+      <Navbar home={true} games={false} blog={false} about={false} contact={false} />
 
 
       <header>
@@ -206,49 +206,13 @@ export default function Home() {
         </div>
         </div>
 
-        <div className="mx-auto max-w-5xl py-6 sm:px-6 lg:px-8  flex flex-col items-center justify-center">
-          <div className="px-4 py-6 sm:px-0 flex items-center">
-            <div className="sm:h-100 ">
-              <div className="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
-                <h1 className="text-8xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >BLOG</h1>
-              </div>
-              
-
-              <div 
-                className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-3xl m-8" 
-                style={{
-                  height: '10vh',
-                  width: '70vw'
-                }}
-              >
-              </div>
-
-              <div 
-                className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-3xl m-8" 
-                style={{
-                  height: '10vh',
-                  width: '70vw'
-                }}
-              >
-              </div>
-
-              <div 
-                className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-3xl m-8" 
-                style={{
-                  height: '10vh',
-                  width: '70vw'
-                }}
-              >
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
 
         {/* #101010 */}
 
 
-        <div 
+        {/* <div 
           className="py-6 sm:px-6 lg:px-8  flex flex-col items-center justify-center" 
           style={{backgroundColor: '#101010'}}
         >
@@ -257,7 +221,7 @@ export default function Home() {
                 <h1 className="text-8xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >CONTACT</h1>
               </div>
           </div>
-        </div>
+        </div> */}
 
 
 

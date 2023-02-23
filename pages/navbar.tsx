@@ -8,6 +8,7 @@ import r_logo from '../public/developer_icon.png'
 interface NavbarProps {
   home: boolean;
   games: boolean;
+  blog: boolean;
   about: boolean;
   contact: boolean;
 
@@ -28,8 +29,10 @@ export default function Navbar(props: NavbarProps) {
   const navigation = [
     { name: 'HOME', href: '/home', current: props.home },
     { name: 'GAMES', href: '/games', current: props.games },
+    { name: 'BLOG', href: '/blog', current: props.blog },
     { name: 'ABOUT', href: '/about', current: props.about },
-    { name: 'CONTACT', href: '/contact', current: props.contact },
+
+    // { name: 'CONTACT', href: '/contact', current: props.contact },
   ]
   return (
     <>
@@ -88,7 +91,7 @@ export default function Navbar(props: NavbarProps) {
                       </div>
                     </div>
                   </div>
-                  <div className="hidden md:block">
+                  {/* <div className="hidden md:block">
                     <div className="ml-4 flex items-center md:ml-6">
                       <button
                         type="button"
@@ -98,7 +101,7 @@ export default function Navbar(props: NavbarProps) {
                         <BellIcon className="h-6 w-6" aria-hidden="true" />
                       </button>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="-mr-2 flex md:hidden">
                     {/* Mobile menu button */}
                     <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">

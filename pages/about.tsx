@@ -8,7 +8,7 @@ import wordlit_icon from '../public/wordlit_icon.png'
 export default function About() {
   return (
     <>
-      <Navbar home={false} games={false} about={true} contact={false} />
+      <Navbar home={false} games={false} blog={false} about={true} contact={false} />
       <header>
 
         <div className="flex items-center justify-center" >

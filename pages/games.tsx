@@ -15,7 +15,7 @@ import wordlit_example_2 from '../public/wordlit_example_2.png'
 export default function Games() {
   return (
     <>
-      <Navbar home={false} games={true} about={false} contact={false} />
+      <Navbar home={false} games={true} blog={false} about={false} contact={false} />
       <header>
 
         <div className="flex items-center justify-center" >
@@ -188,7 +188,7 @@ export default function Games() {
           
         </div>
 
-        <div 
+        {/* <div 
           className="py-6 sm:px-6 lg:px-8  flex flex-col items-center justify-center" 
           style={{backgroundColor: '#101010'}}
         >
@@ -197,7 +197,7 @@ export default function Games() {
                 <h1 className="text-8xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >CONTACT</h1>
               </div>
           </div>
-        </div>
+        </div> */}
 
       </main>
     </>
