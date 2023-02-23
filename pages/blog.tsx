@@ -62,8 +62,7 @@ export default function Blog() {
                   </div>
                 </button>
                 <div className="flex flex-col">
-                  <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >@react-native-amateur</h1>
-                  <text className="mt-1 font-oswald flex items-center justify-center">`not a real npm package`</text>
+                  <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >@react-native</h1>
                 </div>
 
               </div>
