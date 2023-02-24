@@ -21,7 +21,7 @@ export default function ButtonHandler() {
 
     const handleClick = () => {
       if (myRef.current) {
-        myRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
+        myRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     };
 
