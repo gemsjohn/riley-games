@@ -35,20 +35,20 @@ export default function About() {
 
               <h2
                 className="sm:text-2xl lg:text-2xl font-bold tracking-tight font-subtext sm:w-10/12 md:w-11/12 mx-8 m-4"
-                style={{ color: '' }}
+                style={{  }}
               >
                 Yep, that's me!
               </h2>
               <h2
                 className="sm:text-2xl lg:text-2xl font-bold tracking-tight font-subtext sm:w-10/12 md:w-11/12 mx-8 m-4"
-                style={{ color: '' }}
+                style={{  }}
               >
                 I build unique mobile games from scratch, pouring my heart and soul into every pixel and line of code -
                 with a little help from ChatGPT and MidJourney AI tools for inspiration (and let's be real, to speed things up).
               </h2>
               <h2
                 className="sm:text-2xl lg:text-2xl font-bold tracking-tight font-subtext sm:w-10/12 md:w-11/12 mx-8 m-4"
-                style={{ color: '' }}
+                style={{  }}
               >
                 But don't just take my word for it, try them out for yourself!
               </h2>
@@ -123,19 +123,19 @@ export default function About() {
               </div>
               <h2
                 className="sm:text-2xl lg:text-2xl font-bold tracking-tight font-subtext sm:w-10/12 md:w-11/12 mx-8 m-4"
-                style={{ color: '' }}
+                style={{  }}
               >
                 My games are designed to keep your mind active and your thumbs moving.
               </h2>
               <h2
                 className="sm:text-2xl lg:text-2xl font-bold tracking-tight font-subtext sm:w-10/12 md:w-11/12 mx-8 m-4"
-                style={{ color: '' }}
+                style={{  }}
               >
                 Check out the blog to learn more about the creative process behind our games and get sneak peeks of what's to come.
               </h2>
               <h2
                 className="sm:text-2xl lg:text-2xl font-bold tracking-tight font-subtext sm:w-10/12 md:w-11/12 mx-8 m-4"
-                style={{ color: '' }}
+                style={{  }}
               >
                 Thanks for joining me on this adventure of mobile game development!
               </h2>

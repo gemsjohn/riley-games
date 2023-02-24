@@ -1,6 +1,6 @@
 import Navbar from './navbar'
 import React, { useState } from 'react'
-import { ButtonHandler } from './whatis/buttonhandler';
+import ButtonHandler from './whatis/buttonhandler';
 
 export default function Blog() {
   

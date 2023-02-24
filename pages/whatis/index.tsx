@@ -19,7 +19,7 @@ interface IndexProps {
     nextjs: boolean
 }
 
-export const WhatIs_Index = (props: IndexProps) => {
+export default function WhatIs_Index(props: IndexProps){
     return (
         <>
             {props.graphql &&

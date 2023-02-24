@@ -1,13 +1,13 @@
 
 import React, { useState } from 'react'
-import { WhatIs_Index } from './index'
+import WhatIs_Index from './index'
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
   }
   
 
-export const ButtonHandler = () => {
+export default function ButtonHandler() {
     const [viewWhatIs_GraphQL, setViewWhatIs_GraphQL] = useState(false)
     const [viewWhatIs_NodeJS, setViewWhatIs_NodeJS] = useState(false)
     const [viewWhatIs_MongoDB, setViewWhatIs_MongoDB] = useState(false)

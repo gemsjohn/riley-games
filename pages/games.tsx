@@ -109,6 +109,8 @@ export default function Games() {
           
         </div>
 
+        <div style={{height: '10vh'}} />
+
         {/* WORDLIT */}
         <div
           className="flex flex-col justify-center items-center text-left"
