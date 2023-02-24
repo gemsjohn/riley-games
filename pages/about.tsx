@@ -55,7 +55,7 @@ export default function About() {
 
 
               <div className="flex flex-row flex-wrap mx-8">
-                <div className="justify-self-auto flex flex-col align-middle" style={{ backgroundColor: '' }}>
+                <div className="justify-self-auto flex flex-col align-middle" style={{  }}>
                   <Image
                     src={cosmic_icon}
                     alt={"Cosmic Scramble icon"}
@@ -88,7 +88,7 @@ export default function About() {
                   </button>
                 </div>
 
-                <div className="justify-self-auto flex flex-col align-middle" style={{ backgroundColor: '' }}>
+                <div className="justify-self-auto flex flex-col align-middle" style={{  }}>
                   <Image
                     src={wordlit_icon}
                     alt={"Cosmic Scramble icon"}

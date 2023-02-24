@@ -47,7 +47,7 @@ export default function Home() {
         <div style={{backgroundColor: '#101010'}}>
         <div className="grid lg:grid-cols-2 place-content-center justify-items-center mx-auto max-w-5xl" >
           
-          <div className="max-w-xl py-6 sm:px-6 lg:px-8 flex justify-center" style={{ backgroundColor: '' }}>
+          <div className="max-w-xl py-6 sm:px-6 lg:px-8 flex justify-center" style={{  }}>
             <div className="px-4 py-6 sm:px-0 flex items-center">
               <div className="sm:h-100  flex flex-col items-center justify-content">
 
@@ -68,7 +68,7 @@ export default function Home() {
                 </h2>
 
 
-                <div className="justify-self-auto flex flex-col align-middle" style={{ backgroundColor: '' }}>
+                <div className="justify-self-auto flex flex-col align-middle" style={{  }}>
                   <button
                     onClick={(e) => {
                       e.preventDefault();
@@ -83,7 +83,7 @@ export default function Home() {
                     }}
                   >
                     <div>
-                      <text
+                      <p
                         className="text-xl font-oswald"
                         style={{
                           color: 'white',
@@ -91,7 +91,7 @@ export default function Home() {
                         }}
                       >
                         Download Now
-                      </text>
+                      </p>
                     </div>
                   </button>
 
@@ -109,7 +109,7 @@ export default function Home() {
                     }}
                   >
                     <div>
-                      <text
+                      <p
                         className="text-xl font-oswald"
                         style={{
                           color: 'white',
@@ -117,7 +117,7 @@ export default function Home() {
                         }}
                       >
                         More Info
-                      </text>
+                      </p>
                     </div>
                   </button>
                 </div>
@@ -125,7 +125,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="max-w-xl py-6 sm:px-6 lg:px-8 flex justify-center" style={{ backgroundColor: '' }}>
+          <div className="max-w-xl py-6 sm:px-6 lg:px-8 flex justify-center" style={{  }}>
             <div className="px-4 py-6 sm:px-0 flex items-center">
               <div className="sm:h-100  flex flex-col items-center justify-content">
 
@@ -141,13 +141,13 @@ export default function Home() {
                 </h2>
                 <h2
                   className="text-2xl font-bold tracking-tight font-subtext m-8 text-center sm:w-80"
-                  style={{ backgroundColor: '' }}
+                  style={{  }}
                 >
                   The fast-paced game that tests your word-solving skills.
                 </h2>
 
 
-                <div className="justify-self-auto flex flex-col align-middle" style={{ backgroundColor: '' }}>
+                <div className="justify-self-auto flex flex-col align-middle" style={{  }}>
                   <button
                     onClick={(e) => {
                       e.preventDefault();
@@ -162,7 +162,7 @@ export default function Home() {
                     }}
                   >
                     <div>
-                      <text
+                      <p
                         className="text-xl font-oswald"
                         style={{
                           color: 'white',
@@ -170,7 +170,7 @@ export default function Home() {
                         }}
                       >
                         Download Now
-                      </text>
+                      </p>
                     </div>
                   </button>
 
@@ -188,7 +188,7 @@ export default function Home() {
                     }}
                   >
                     <div>
-                      <text
+                      <p
                         className="text-xl font-oswald"
                         style={{
                           color: 'white',
@@ -196,7 +196,7 @@ export default function Home() {
                         }}
                       >
                         More Info
-                      </text>
+                      </p>
                     </div>
                   </button>
                 </div>
