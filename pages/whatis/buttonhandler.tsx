@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import WhatIs_Index from './index'
 
 function classNames(...classes: string[]) {
@@ -17,6 +17,14 @@ export default function ButtonHandler() {
     const [viewWhatIs_ReactNative, setViewWhatIs_ReactNative] = useState(false)
     const [viewWhatIs_NextJS, setViewWhatIs_NextJS] = useState(false)
 
+    const myRef = useRef<HTMLDivElement>(null);
+
+    const handleClick = () => {
+      if (myRef.current) {
+        myRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
+      }
+    };
+
     const whatIs = [
         {
             name: 'GraphQL',
@@ -30,6 +38,7 @@ export default function ButtonHandler() {
                 setViewWhatIs_React(false)
                 setViewWhatIs_ReactNative(false)
                 setViewWhatIs_NextJS(false)
+                handleClick()
             },
         },
         {
@@ -44,6 +53,8 @@ export default function ButtonHandler() {
                 setViewWhatIs_React(false)
                 setViewWhatIs_ReactNative(false)
                 setViewWhatIs_NextJS(false)
+                handleClick()
+
             }
         },
         {
@@ -58,6 +69,7 @@ export default function ButtonHandler() {
                 setViewWhatIs_React(false)
                 setViewWhatIs_ReactNative(false)
                 setViewWhatIs_NextJS(false)
+                handleClick()
             }
         },
         {
@@ -72,6 +84,7 @@ export default function ButtonHandler() {
                 setViewWhatIs_React(false)
                 setViewWhatIs_ReactNative(false)
                 setViewWhatIs_NextJS(false)
+                handleClick()
             }
         },
         {
@@ -86,6 +99,7 @@ export default function ButtonHandler() {
                 setViewWhatIs_React(false)
                 setViewWhatIs_ReactNative(false)
                 setViewWhatIs_NextJS(false)
+                handleClick()
             }
         },
         {
@@ -100,6 +114,7 @@ export default function ButtonHandler() {
                 setViewWhatIs_React(current => !current)
                 setViewWhatIs_ReactNative(false)
                 setViewWhatIs_NextJS(false)
+                handleClick()
             }
         },
         {
@@ -114,6 +129,7 @@ export default function ButtonHandler() {
                 setViewWhatIs_React(false)
                 setViewWhatIs_ReactNative(current => !current)
                 setViewWhatIs_NextJS(false)
+                handleClick()
             }
         },
         {
@@ -128,14 +144,17 @@ export default function ButtonHandler() {
                 setViewWhatIs_React(false)
                 setViewWhatIs_ReactNative(false)
                 setViewWhatIs_NextJS(current => !current)
+                handleClick()
             }
         }
     ]
 
+    
+
     return (
         <>
-            <div className="">
-                <div className="m-10 flex flex-row flex-wrap">
+            <div>
+                <div className="m-10 flex flex-row flex-wrap items-center justify-center">
                     {whatIs.map((item) => (
                         <a
                             key={item.name}
@@ -153,16 +172,19 @@ export default function ButtonHandler() {
                     ))}
                 </div>
             </div>
-            <WhatIs_Index
-                graphql={viewWhatIs_GraphQL}
-                nodejs={viewWhatIs_NodeJS}
-                mongodb={viewWhatIs_MongoDB}
-                apolloserver={viewWhatIs_ApolloServer}
-                heroku={viewWhatIs_Heroku}
-                react={viewWhatIs_React}
-                reactnative={viewWhatIs_ReactNative}
-                nextjs={viewWhatIs_NextJS}
-            />
+            <div ref={myRef}>
+                <WhatIs_Index
+                    graphql={viewWhatIs_GraphQL}
+                    nodejs={viewWhatIs_NodeJS}
+                    mongodb={viewWhatIs_MongoDB}
+                    apolloserver={viewWhatIs_ApolloServer}
+                    heroku={viewWhatIs_Heroku}
+                    react={viewWhatIs_React}
+                    reactnative={viewWhatIs_ReactNative}
+                    nextjs={viewWhatIs_NextJS}
+                />
+                <div style={{ height: '10vh' }} />
+            </div>
         </>
     )
 }
