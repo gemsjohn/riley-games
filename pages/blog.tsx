@@ -1,7 +1,9 @@
 import Navbar from './navbar'
 import React, { useState } from 'react'
+import { ButtonHandler } from './whatis/buttonhandler';
 
 export default function Blog() {
+  
   const [expand_0, setExpand_0] = useState(false);
   return (
     <>
@@ -12,6 +14,9 @@ export default function Blog() {
           <div className="sm:h-100 ">
             <div className="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
               <h1 className="text-8xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >BLOG</h1>
+              <h2 className="text-3xl font-bold tracking-tight text-white font-subtext text-center m-4">
+                behind the scenes
+              </h2>
             </div>
             {!expand_0 ?
               <button
@@ -37,30 +42,32 @@ export default function Blog() {
                   width: '70vw'
                 }}
               >
-                <button
-                  onClick={(e) => {
-                    setExpand_0(false)
-                  }}
-                  className="bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white p-2 m-2"
-                  style={{
-                    borderRadius: '10vh',
-                    // borderWidth: 2,
-                    // borderColor: '#09e049',
-                    opacity: 0.9,
-                  }}
-                >
-                  <div>
-                    <text
-                      className="text-xl font-oswald"
-                      style={{
-                        color: 'white',
-                        textAlign: 'center'
-                      }}
-                    >
-                      Close
-                    </text>
-                  </div>
-                </button>
+                <div className="flex justify-end">
+                  <button
+                    onClick={(e) => {
+                      setExpand_0(false)
+                    }}
+                    className="bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white p-2 m-2 w-40 flex items-center justify-center"
+                    style={{
+                      borderRadius: '10vh',
+                      // borderWidth: 2,
+                      // borderColor: '#09e049',
+                      opacity: 0.9,
+                    }}
+                  >
+                    <div>
+                      <text
+                        className="text-xl font-oswald"
+                        style={{
+                          color: 'white',
+                          textAlign: 'center',
+                        }}
+                      >
+                        Close
+                      </text>
+                    </div>
+                  </button>
+                </div>
                 <div className="flex flex-col">
                   <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >@react-native</h1>
                 </div>
@@ -88,6 +95,28 @@ export default function Blog() {
           </div>
         </div>
       </div>
+
+      {/* #101010 */}
+
+
+      <div
+        className="py-6 sm:px-6 lg:px-8  flex flex-col items-center justify-center"
+        style={{ backgroundColor: '#101010' }}
+      >
+        <div className="px-4 py-6 sm:px-0 flex items-center">
+          <div className="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
+            <h1 className="text-8xl font-bold tracking-tight text-white font-oswald flex items-center justify-center" >WHAT IS _ ?</h1>
+            <h2 className="text-3xl font-bold tracking-tight text-white font-subtext text-center m-4">
+              please explain
+            </h2>
+          </div>
+        </div>
+        
+        <ButtonHandler />
+        
+
+      </div>
+
     </>
   )
 }

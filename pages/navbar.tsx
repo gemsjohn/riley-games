@@ -79,7 +79,7 @@ export default function Navbar(props: NavbarProps) {
                             href={item.href}
                             className={classNames(
                               item.current
-                                ? 'bg-gray-900 text-white'
+                                ? 'bg-[#35faa9] text-black'
                                 : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                               'px-3 py-2 rounded-md text-lg font-large font-oswald'
                             )}
