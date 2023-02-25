@@ -26,7 +26,9 @@ export default function Games() {
         <div id='cosmic_scramble_scetion'>
           <Cosmic_Scramble />
         </div>
+        
         <div style={{height: '10vh'}} />
+
         <div id='wordlit_section'>
           <Wordlit />
         </div>

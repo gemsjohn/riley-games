@@ -1,5 +1,6 @@
 
 import React, { useState, useRef } from 'react'
+import Link from 'next/link'
 import WhatIs_Index from './index'
 
 function classNames(...classes: string[]) {
@@ -29,6 +30,7 @@ export default function ButtonHandler() {
         {
             name: 'GraphQL',
             current: viewWhatIs_GraphQL,
+            href: '#graphql',
             onClick: () => {
                 setViewWhatIs_GraphQL(current => !current)
                 setViewWhatIs_NodeJS(false)
@@ -44,6 +46,7 @@ export default function ButtonHandler() {
         {
             name: 'Node.js',
             current: viewWhatIs_NodeJS,
+            href: '#nodejs',
             onClick: () => {
                 setViewWhatIs_GraphQL(false)
                 setViewWhatIs_NodeJS(current => !current)
@@ -60,6 +63,7 @@ export default function ButtonHandler() {
         {
             name: 'MongoDB',
             current: viewWhatIs_MongoDB,
+            href:'#mongodb',
             onClick: () => {
                 setViewWhatIs_GraphQL(false)
                 setViewWhatIs_NodeJS(false)
@@ -75,6 +79,7 @@ export default function ButtonHandler() {
         {
             name: 'Apollo Server',
             current: viewWhatIs_ApolloServer,
+            href: '#apolloserver',
             onClick: () => {
                 setViewWhatIs_GraphQL(false)
                 setViewWhatIs_NodeJS(false)
@@ -90,6 +95,7 @@ export default function ButtonHandler() {
         {
             name: 'Heroku',
             current: viewWhatIs_Heroku,
+            href: '#heroku',
             onClick: () => {
                 setViewWhatIs_GraphQL(false)
                 setViewWhatIs_NodeJS(false)
@@ -105,6 +111,7 @@ export default function ButtonHandler() {
         {
             name: 'React',
             current: viewWhatIs_React,
+            href: '#react',
             onClick: () => {
                 setViewWhatIs_GraphQL(false)
                 setViewWhatIs_NodeJS(false)
@@ -120,6 +127,7 @@ export default function ButtonHandler() {
         {
             name: 'React Native',
             current: viewWhatIs_ReactNative,
+            href: '#reactnative',
             onClick: () => {
                 setViewWhatIs_GraphQL(false)
                 setViewWhatIs_NodeJS(false)
@@ -135,6 +143,7 @@ export default function ButtonHandler() {
         {
             name: 'Next.js',
             current: viewWhatIs_NextJS,
+            href: '#nextjs',
             onClick: () => {
                 setViewWhatIs_GraphQL(false)
                 setViewWhatIs_NodeJS(false)
@@ -156,8 +165,9 @@ export default function ButtonHandler() {
             <div>
                 <div className="m-10 flex flex-row flex-wrap items-center justify-center">
                     {whatIs.map((item) => (
-                        <a
+                        <Link
                             key={item.name}
+                            href={item.href}
                             onClick={item.onClick}
                             className={classNames(
                                 item.current
@@ -168,7 +178,7 @@ export default function ButtonHandler() {
                               aria-current={item.current ? 'page' : undefined}
                         >
                             {item.name}
-                        </a>
+                        </Link>
                     ))}
                 </div>
             </div>

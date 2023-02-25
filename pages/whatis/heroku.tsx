@@ -2,7 +2,7 @@
 export default function WhatIs_heroku() {
   return (
     <>
-      <div className="mx-auto max-w-5xl py-6 sm:px-6 lg:px-8">
+      <div id='heroku' className="mx-auto max-w-5xl py-6 sm:px-6 lg:px-8">
         <div className="px-4 py-6 sm:px-0 flex items-center">
           <div className="sm:h-50 flex flex-col">
             <h2
