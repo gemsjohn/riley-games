@@ -1,5 +1,6 @@
 import Navbar from './navbar'
 import Image from 'next/image'
+import Link from 'next/link'
 import home_bg_0 from '../public/home_bg_0.png'
 import cosmic_icon from '../public/cosmic_icon.png'
 import cosmic_feature from '../public/cosmic_feature.png'
@@ -7,6 +8,7 @@ import cosmic_bg from '../public/cosmic_bg.png'
 import wordlit_icon from '../public/wordlit_icon.png'
 import wordlit_feature from '../public/wordlit_feature.png'
 import styles from '../styles/Home.module.css'
+import Wordlit from './games/wordlit'
 
 export default function Home() {
   return (
@@ -95,11 +97,13 @@ export default function Home() {
                     </div>
                   </button>
 
-                  <button
-                    onClick={(e) => {
-                      e.preventDefault();
-                      window.location.href = '/games';
-                    }}
+                  <Link
+                    // onClick={(e) => {
+                    //   e.preventDefault();
+                    //   window.location.href = '/games';
+                    // }}
+                    href= './games/#cosmic_scramble_section'
+                    scroll={true}
                     className="bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white p-2 w-40 m-2"
                     style={{
                       borderRadius: '0.5vh',
@@ -119,7 +123,7 @@ export default function Home() {
                         More Info
                       </p>
                     </div>
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -174,11 +178,9 @@ export default function Home() {
                     </div>
                   </button>
 
-                  <button
-                    onClick={(e) => {
-                      e.preventDefault();
-                      window.location.href = '/games';
-                    }}
+                  <Link
+
+                    href= './games/#wordlit_section'
                     className="bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white p-2 w-40 m-2"
                     style={{
                       borderRadius: '0.5vh',
@@ -198,7 +200,7 @@ export default function Home() {
                         More Info
                       </p>
                     </div>
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
