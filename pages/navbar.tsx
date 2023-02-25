@@ -29,7 +29,7 @@ export default function Navbar(props: NavbarProps) {
   const navigation = [
     { name: 'HOME', href: '/home', current: props.home },
     { name: 'GAMES', href: '/games', current: props.games },
-    { name: 'BLOG', href: '/blog', current: props.blog },
+    // { name: 'BLOG', href: '/blog', current: props.blog },
     { name: 'ABOUT', href: '/about', current: props.about },
 
     // { name: 'CONTACT', href: '/contact', current: props.contact },
