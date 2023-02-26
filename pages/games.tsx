@@ -32,6 +32,9 @@ export default function Games() {
         <div id='wordlit_section'>
           <Wordlit />
         </div>
+
+        <div style={{height: '10vh'}} />
+
       </main>
     </>
   )

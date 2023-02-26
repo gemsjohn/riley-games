@@ -1,6 +1,7 @@
 import { Fragment, useState } from 'react'
 import Image from 'next/image'
 import Head from 'next/head';
+import Link from 'next/link';
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import r_logo from '../public/developer_icon.png'
@@ -60,7 +61,7 @@ export default function Navbar(props: NavbarProps) {
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
-                    <div className="flex-shrink-0">
+                    <Link href={'./home'} className="flex-shrink-0">
                       <Image
                       src={r_logo}
                       alt="Riley Games Icon"
@@ -70,7 +71,7 @@ export default function Navbar(props: NavbarProps) {
                           borderRadius: 100
                         }}
                       />
-                    </div>
+                    </Link>
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
                         {navigation.map((item) => (
