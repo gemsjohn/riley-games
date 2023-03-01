@@ -1,7 +1,7 @@
 import Navbar from './navbar'
 import Image from 'next/image'
 import cosmic_icon from '../public/cosmic_icon.png'
-import wordlit_icon from '../public/wordlit_icon.png'
+import wordlit_icon from '../public/wordlit_icon_2.png'
 
 
 
