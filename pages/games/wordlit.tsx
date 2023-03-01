@@ -4,7 +4,7 @@ import wordlit_feature from '../../public/wordlit_feature.png'
 import wordlit_example_0 from '../../public/wordlit_example_0.png'
 import wordlit_example_1 from '../../public/wordlit_example_1.png'
 import wordlit_example_2 from '../../public/wordlit_example_2.png'
-
+import wordlit_example_3 from '../../public/wordlit_example_3.png'
 
 export default function Wordlit() {
     return (
@@ -77,6 +77,12 @@ export default function Wordlit() {
                     />
                     <Image
                         src={wordlit_example_2}
+                        alt={"Wordlit example image"}
+                        className="m-2"
+                        style={{ borderRadius: '10px', width: '20vw' }}
+                    />
+                    <Image
+                        src={wordlit_example_3}
                         alt={"Wordlit example image"}
                         className="m-2"
                         style={{ borderRadius: '10px', width: '20vw' }}
